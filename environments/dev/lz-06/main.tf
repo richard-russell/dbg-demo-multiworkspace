@@ -1,6 +1,6 @@
 module "lz_06" {
   source              = "../../../modules/landing-zone"
-  name                = "lz-06"
+  name                = "multi-lz-06"
   cidr                = "10.6.0.0/16"
   environment         = "dev"
   enable_s3           = true
