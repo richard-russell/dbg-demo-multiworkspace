@@ -5,4 +5,5 @@ module "lz_11" {
   environment         = "dev"
   enable_s3           = true
   enable_ssm_advanced = false
+  extra_tags          = { modified_by = "Richard" }
 }
