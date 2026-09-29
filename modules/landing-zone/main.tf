@@ -7,7 +7,7 @@ locals {
       Name        = lower(var.name)
       Environment = var.environment
       ManagedBy   = "Terraform"
-      FleetUpdate = "shared-module-change"
+      FleetUpdate = "shared-module-change-2"
     },
     var.extra_tags
   )
